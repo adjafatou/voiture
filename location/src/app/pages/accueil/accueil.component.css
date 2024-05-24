@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  height: 400px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: #333;
+}
+
+.slogan {
+  font-size: 1.6rem;
+  margin-top: 20px;
+  color: #666;
+}
+
+/* Featured Cars Styles */
+.featured-cars {
+  padding: 20px;
+}
+
+.car-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.car-card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.car-card:hover {
+  transform: translateY(-5px);
+}
+
+.car-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.car-card h3 {
+  margin: 15px 0 10px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.car-card p {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #666;
+}
+
+/* Call to Action Styles */
+.call-to-action {
+  background-color: #f0f0f0;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.benefits {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits li {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}

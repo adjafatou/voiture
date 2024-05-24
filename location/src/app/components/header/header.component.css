@@ -1,0 +1,45 @@
+/* Header Styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed; /* Utilisation de la position fixed */
+  top: 0; /* Fixe en haut de la fenêtre */
+  left: 0; /* Aligné sur la gauche */
+  right: 0; /* Aligné sur la droite */
+  z-index: 1000; /* Ass
+}
+
+.logo {
+  /* Si vous avez un logo à afficher */
+}
+
+.connexion {
+  display: flex;
+  gap: 10px;
+}
+
+.connexion a {
+  text-decoration: none;
+}
+
+.connexion button {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.connexion button:hover {
+  background-color: #fff;
+  color: #007bff;
+}
